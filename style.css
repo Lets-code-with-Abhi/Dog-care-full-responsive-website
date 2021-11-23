@@ -154,7 +154,8 @@ footer{background-color: black; color: white;}
     .abt{width: 50%;} .vision,.mission{padding: 2%;}
     .tbh{width: 60%;} 
     .tab{ width: 45%;}
-    .col{width: 50%;} .logo{ width: 93%; float: left;} .burger{float: right;} 
+    .col{width: 50%;} .logo{ width: 93%; float: left;} 
+    .burger{float: right; padding: 2%;} .logo h1{padding: 1%;}
 }
 
 @media(max-width:815px){
@@ -198,14 +199,14 @@ footer{background-color: black; color: white;}
     .dog{width: 37%;} .containers{width: 65%;}
     .main3{display: flex; flex-direction: column; height: 75vh;} .parts{width: 98%; margin-top: 0;} .x{display: none;}
     .parts h2{font-size: 1.3em; padding: 1%;} .parts h4{padding: 1%;}
-    .Contact_info{padding: 1%; font-size: 1em;} .Contact_info i{color: gray;} .containers{height: 60vh;}
+    .Contact_info{padding: 1%; font-size: 1em;} .Contact_info i{color: gray;} .containers{height: 53vh;}
 }
 
 @media (max-width:500px){
     .abt{width: 95%;}
     .tbh{width: 90%;}
     .tab{ width: 95%;}
-    .col{width: 95%;}
+    .col{width: 95%; height: 71%;}
     .collarge{width: 90%; height: 50vh;}
     .bg_img{background: url(fd.jpg) repeat fixed 50%;}
 }
