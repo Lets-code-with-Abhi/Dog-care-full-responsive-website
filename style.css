@@ -1,0 +1,211 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: normal;}
+body{background-color: whitesmoke;}
+.fl{float: left;}
+.fr{float: right;}
+.clr{clear: both;}
+/* Header */
+header{display: flex; background-color: white; position: sticky; top: 0px; box-shadow: 0px 0px 5px 0px;}
+.logo{margin: 1%; width: 28%;} 
+.options{width: 70%;}
+.options ul{ display: flex; justify-content: flex-end;}
+.options ul li{list-style: none; margin: 1%; padding: 1%; font-weight: 500; cursor: pointer;}
+/* .options ul li:hover{border-bottom: 1px solid darkorange;} */
+a{text-decoration: none; color:black;} a:hover{color: darkorange; border-bottom: 1px solid darkorange;}
+input{padding: 1%; text-align: center; border-radius: 25px; border: 1px solid gray; outline: none; width: 85%; height: 30px;}
+i{color: darkorange;} i:hover{color:black;}
+
+/* //////////// */
+.burger{font-size: 1.5rem; display: none; padding: 1%;}
+/* /////////// */
+
+/* these options were appear when the screen resolution is change*/
+.opt2{float: right; display: none;}
+.opt2 ul li{padding: 3%; background-color:darkorange; margin-top: 2%; list-style: none; border-radius: 25px;}
+.opt2 a:hover{color: white;}
+.opt2 ul li i{padding: 2%; color: white;}
+
+/* main */
+/* banner */
+main{background-color: whitesmoke;}
+.img_banner{background-image: url(1331874.jpg); width:auto; height: 90vh; background-repeat: no-repeat;}
+.main_heading{ width: 70%; padding: 10% 5%;}
+.main_heading h1{ font-weight: normal; font-family: 'Times New Roman', Times, serif; font-size: 4em;}
+.main_heading h2{ font-weight: normal; font-family: 'Times New Roman', Times, serif;}
+.main_heading button{ font-size: 1.5em; margin-top: 10px; padding: 10px;  border-radius: 10px; border: 1px solid gray;}
+.a1{ background-color: white; color: darkorange;}
+.b1{ background-color: darkorange; color: white;}
+.a1:hover{ background-color: darkorange; color: white;} 
+.b1:hover{ background-color: white; color: darkorange;}
+
+/*Rows  */
+.row{height: 15vh; background-color: whitesmoke; }
+.row2{height: 8vh; color: whitesmoke; }
+/*  */
+
+/* about sec  */
+.about{display: flex; justify-content: space-evenly;}
+.abt{width: 40%; height: 50vh; text-align: justify;}
+.abt img{ width: 100%; height: 100%; border-radius: 25px;}
+.abt img:hover{box-shadow: 0px 0px 5px 0px;}
+.abt h1{padding: 1%; text-align: center;} .abt h3 {padding: 1%; color: gray;}
+.vision{width: 40%; padding: 1%; margin-top: 30px; float: right;}
+.mission{width: 40%; padding: 1%; margin-top: 30px; float: left;}
+
+/* what we do heading */
+.tbh{ width: 50%; margin:auto;}
+.tbh h1{ font-size: 2.5em; text-align: center; padding: 10px;}
+.tbh h3{ font-weight: normal; text-align: center; color: gray;}
+/*  */
+
+/* what we do sample images */
+.what_we_do{display: flex; justify-content: space-evenly;}
+.tab{ width: 30%; height: 60vh; margin-bottom: 20px;}
+.tab img{width: 100%; height: 70%; }
+.tab img:hover{box-shadow: 0px 0px 5px 0px;}
+.tab h1{padding: 1%; text-align: center; font-size: 25px;} .tab h3{ color: gray; text-align: center;}
+
+/* review section */
+
+.review{ display: flex; justify-content: space-evenly;}
+.col{width: 45%; height: 80vh;}
+.col h1{text-align: center; padding: 2%;} .col h3{ color: gray; text-align: center; padding: 2%;}
+.col i{color: navy; font-size: 2.5em;}
+.col span{font-size: 1.8rem;} .col span h6{color: gray;}
+.col .l{ margin-top: 35px; display: flex; justify-content: space-evenly;}
+.col h4{text-align: right; font-weight: bold; padding: 1%; color: navy;}
+
+.id1{width: 50px; height: 50px; margin: auto; margin-top: 20px;}
+.id1 img{width: 100px; height: 100px; border-radius: 50px;}
+
+/* Gallery */
+.collarge{width: 80%; height: 80vh; margin: auto;}
+.collarge img{width: 100%; height: 100%;}
+.collarge img:hover{box-shadow: 0px 0px 5px 0px;}
+
+/* biteing_dentistry */
+
+.biteing_dentistry{display: flex; justify-content: space-evenly;}
+.dog{ width:15%; height: 50vh;}
+.dog img{ width: 100%; height: 100%;}
+
+.containers{ width: 33%; height: 50vh;}
+.containers i{font-size: 2em; padding: 2%; margin-top: 20px;}
+.containers h3{color: gray; font-size: 1.2em; }
+
+/* heightlight the background puppy*/
+.blank{color: white;}
+.bg_img{background: url(fd.jpg) repeat fixed 100%;}
+.forestdog{padding-top: 7%; padding-bottom: 7%;}
+.forestdog h4{padding: 2%;} .forestdog h1{padding: 2%;} .forestdog button{ padding: 1%; border-radius: 25px; border: 1px solid black; margin: 1%; color: black; }
+.forestdog button:hover{ background-color: rgb(216, 236, 245);}
+
+/* latest news      laout same as what we do */
+
+.tab a:hover{color: rgb(4, 130, 248); border: none;}
+.tab h3 span:hover{cursor: pointer;}
+
+/* footer */
+
+footer{background-color: black; color: white;}
+.main3{display: flex; justify-content: space-evenly; height: 60vh; border-bottom: 1px solid gray;}
+.parts{width: 30%; height: 50vh; margin-top: 40px; }
+.parts h1{padding: 2%; cursor: pointer;} .parts h1:hover{ color: darkorange;}
+.parts h4{color: gray; text-align: justify; padding: 2%;}
+
+.parts h2{padding: 2%;} .parts input{margin: 4% 0; width: 70%;}
+.parts i{ font-size: 1.5em; padding: 2%;} .parts i{ color: darkorange;} 
+
+.footer{display: flex; justify-content: space-evenly;}
+.copyright{padding: 2%;}
+.Contact_info{padding: 2%;} .Contact_info i{margin: 0 10px; font-size: 1.5rem; color: white;}
+.Contact_info i:hover{color: darkorange;}
+
+.parts h4 li{padding: 1.5%; list-style: none;}
+
+/* ///////////////////////////////////////////////////// */
+@media(max-width:1200px){
+    .mission,.vision{margin-top: 0; width: 50%;}    
+}
+
+@media(max-width:1150px){
+    .img_banner{background-image: url(gr.jpeg); height: auto; background-repeat: no-repeat;}
+    .main_heading{color:white;}    
+}
+
+@media(max-width:1000px){
+    .abt h1{padding: 1%; text-align: center; font-size: 1.5rem;} .abt h3 {padding: 1%; color: gray; font-size: 1rem;}
+    col h1{font-size: 1.5rem;} .col h3{font-size: 1rem;} .col h4{padding: 0%;}
+}
+
+@media(max-width:950px){
+    .about{display: flex; flex-direction:column; align-items:center;}  
+    .what_we_do{display: flex; flex-direction: column; align-items: center;}  
+    .review{ display: flex; flex-direction: column; align-items: center;}
+    .bg_img{background: url(fd.jpg) repeat fixed 80%; }
+}
+@media(max-width:900px){
+    .tab{margin-bottom: 50px;}
+}
+
+
+@media(max-width:875px){
+    .options{display: none;}
+    .burger{font-size: 1.5rem; display: block; }
+    .abt{width: 50%;} .vision,.mission{padding: 2%;}
+    .tbh{width: 60%;} 
+    .tab{ width: 45%;}
+    .col{width: 50%;} .logo{ width: 93%; float: left;} .burger{float: right;} 
+}
+
+@media(max-width:815px){
+    .parts h1{font-size: 1.5em;}
+}
+
+@media(max-width:765px){
+    .tab{ width: 40%; margin-bottom: 40px;}
+    .abt{width: 50%; height: 50vh; margin: 20px 0;}
+}
+
+@media(max-width:696px){
+    .logo{width: 70%; float: left;} .logo h1{width: 100%; text-align: left;}
+    header{display: block;} .burger{float: right; margin: 0 10px 0 0;}
+    .bg_img{background: url(fd.jpg) repeat fixed 50%;}
+}
+
+@media(max-width:640px){
+    .abt{width: 55%; height: 45vh; margin: 20px 0;}
+    .tab{ width: 50%; margin-bottom: 40px;}
+    .id1{margin-bottom: 20px;}
+    .tbh{margin-top: 20px;}
+    .dog{ width:15%; height: 40vh;}
+}
+
+@media(max-width:612px){
+    .abt{width: 65%;}
+    .tab{ width: 60%;}
+    .col{width: 60%;}
+    .collarge{height: 60vh;}
+    .footer{display: flex; flex-direction: column; align-items: center;}
+}
+
+@media (max-width:500px){
+    .abt{width: 75%;}
+    .tbh{width: 70%;}
+    .tab{ width: 75%;}
+    .col{width: 75%;}
+    .collarge{width: 90%; height: 60vh;}
+    .biteing_dentistry{display: flex; flex-direction: column;  align-items: center;}
+    .dog{width: 37%;} .containers{width: 65%;}
+    .main3{display: flex; flex-direction: column; height: 75vh;} .parts{width: 98%; margin-top: 0;} .x{display: none;}
+    .parts h2{font-size: 1.3em; padding: 1%;} .parts h4{padding: 1%;}
+    .Contact_info{padding: 1%; font-size: 1em;} .Contact_info i{color: gray;} .containers{height: 60vh;}
+}
+
+@media (max-width:500px){
+    .abt{width: 95%;}
+    .tbh{width: 90%;}
+    .tab{ width: 95%;}
+    .col{width: 95%;}
+    .collarge{width: 90%; height: 50vh;}
+    .bg_img{background: url(fd.jpg) repeat fixed 50%;}
+}
