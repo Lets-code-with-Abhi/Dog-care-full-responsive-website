@@ -19,10 +19,14 @@ i{color: darkorange;} i:hover{color:black;}
 /* /////////// */
 
 /* these options were appear when the screen resolution is change*/
-.opt2{float: right; display: none;}
+.opt2{display: none;}
 .opt2 ul li{padding: 3%; background-color:darkorange; margin-top: 2%; list-style: none; border-radius: 25px;}
 .opt2 a:hover{color: white;}
 .opt2 ul li i{padding: 2%; color: white;}
+.opt2 ul li{ width: 50%; margin: auto; margin-top: 2%; border: 1px solid red; text-align: center;}
+.opt2 input{width: 70%; border: 1px solid red; margin-left: 5%;}
+
+.opt2 ul li:hover{ width: 60%;}
 
 /* main */
 /* banner */
